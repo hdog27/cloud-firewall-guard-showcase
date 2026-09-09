@@ -20,7 +20,9 @@ The stack created four resources: a VPC, a security group, a GitHub OIDC provide
 
 ## 3 | Connect GitHub without a stored AWS password
 
-GitHub stores the role and firewall group identifiers as repository variables. When the workflow runs, GitHub requests a short-lived AWS access pass through OIDC. The account and resource identifiers are omitted from this public walkthrough.
+GitHub stores the role and firewall group identifiers as repository variables. When the workflow runs, GitHub requests a short-lived AWS access pass through OIDC. The values are permanently covered in this public screenshot.
+
+![GitHub repository variables with AWS identifiers permanently redacted](evidence/03-github-variables-redacted.png)
 
 ## 4 | Propose an unsafe rule
 
